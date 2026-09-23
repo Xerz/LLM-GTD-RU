@@ -1,0 +1,23 @@
+{
+  "name": "llm-gtd-ru",
+  "version": "1.0.0",
+  "description": "Русскоязычная система GTD для Codex с состоянием в Markdown.",
+  "author": { "name": "Xerz" },
+  "homepage": "https://github.com/Xerz/LLM-GTD-RU",
+  "repository": "https://github.com/Xerz/LLM-GTD-RU",
+  "license": "MIT",
+  "keywords": ["gtd", "productivity", "tasks", "russian", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "LLM-GTD на русском",
+    "shortDescription": "Собирайте, уточняйте и пересматривайте дела по-русски.",
+    "longDescription": "Русскоязычный GTD-плагин для Codex. Ведёт задачи в Markdown-файлах memory/gtd-ru/, помогает собирать входящие, определять следующие действия, обновлять проекты и проводить еженедельный обзор.",
+    "developerName": "Xerz",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/Xerz/LLM-GTD-RU",
+    "defaultPrompt": ["Настрой мою систему GTD на русском", "Запиши и проясни эту задачу", "Обнови состояние моего проекта", "Проведи еженедельный обзор дел"],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
